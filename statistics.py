@@ -98,4 +98,5 @@ def plot_graph_statistics(train_graphs, generated_graphs, baseline_graphs=None):
 # Plot graph statistics 
 
 
-plot_graph_statistics(train_graphs, gen_graphs, baseline_graphs) 
+plot_graph_statistics(train_graphs, gen_graphs, baseline_graphs)
+plot.savefig("graph_statistics.png") 
